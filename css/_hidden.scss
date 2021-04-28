@@ -1,0 +1,19 @@
+.hidden{
+    display: none;
+    color: black;
+    
+    
+  .icon-home-icon:before {
+    content: "\e902";
+    color: #393A9E;
+    border-bottom: 3px solid  #393A9E;
+    padding-bottom: 12px;
+  }
+
+    @media (max-width: 575px){
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid  #E0E0E0;
+    }
+}

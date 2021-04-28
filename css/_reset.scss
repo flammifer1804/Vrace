@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  button{
+    font-size: 14px;
+    border: none;
+    padding: 8px 19px;
+    border-radius: 40px;
+
+    &:hover{
+        opacity: .75;
+        cursor: pointer;
+    }
+  }
+
+  body {
+    font-family: $mainFont;
+    color: black;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+  }

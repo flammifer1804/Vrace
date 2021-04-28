@@ -1,0 +1,120 @@
+.navbar__logo {
+  margin: 17px 15%;
+  font-size: 30px;
+
+  .icon-vrace-logo:before {
+    content: "\e90a";
+    color: #fff;
+  }
+}
+
+.navbar__container {
+  position: absolute;
+  font-size: 14px;
+  color: #fff;
+  top: 25px;
+
+  .navbar__btn {
+    margin-left: 25px;
+    padding-bottom: 22px;
+
+    &:first-of-type {
+      border-bottom: 3px solid white;
+    }
+
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+
+  .icon-rec-dropdown {
+    &:before {
+      content: "\e905";
+      color: #fff;
+      font-size: 7px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+
+  .icon-home-icon:before {
+    content: "\e902";
+    color: #fff;
+  }
+}
+.navbar__logo-con {
+  position: absolute;
+  height: 100%;
+  width: 240px;
+  background-color: #9f224e;
+  text-align: center;
+  font-size: 30px;
+  top: 0;
+  right: 10%;
+  padding: 17px 0;
+  transform: skewX($skew-value);
+
+  .navbar__logo--right {
+    right: 0;
+
+    .icon-VNexpress {
+      transform: skewX(calc(-45deg * -1));
+
+      &:before {
+        content: "\e909";
+        color: #fff;
+      }
+    }
+  }
+
+  .navbar__light {
+    position: absolute;
+    height: 64px;
+    width: 22px;
+    background-color: #9f224e;
+    text-align: center;
+    right: 250px;
+    top: 0;
+    opacity: 0.8;
+  }
+
+  .navbar__lighter {
+    position: absolute;
+    height: 64px;
+    width: 22px;
+    background-color: #9f224e;
+    text-align: center;
+    right: 282px;
+    top: 0;
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 1100px) {
+  .navbar__logo-con {
+    right: 32px;
+  }
+  .navbar__logo {
+    margin: 17px 5%;
+  }
+}
+
+@media (max-width: 767px) {
+  body{
+    overflow-x: hidden;
+  }
+  
+  .navbar__logo-con {
+    right: -200px;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar__container{
+    display: none !important;
+  }
+}

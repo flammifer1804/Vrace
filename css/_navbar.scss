@@ -1,0 +1,22 @@
+@import "_navbar__icon";
+.navbar {
+  max-height: 64px;
+  background-color: #393a9e;
+  position: relative;
+
+  span {
+    display: inline-block;
+  }
+
+  &__pic{
+    display: inline-block;
+    width: 28px;
+    margin-left: 300px;
+  }
+
+  @media (max-width: 575px){
+    &__pic{
+      margin-left: 25%;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('iconfonts/icomoon.eot?s5nodu');
+  src:  url('iconfonts/icomoon.eot?s5nodu#iefix') format('embedded-opentype'),
+    url('iconfonts/icomoon.ttf?s5nodu') format('truetype'),
+    url('iconfonts/icomoon.woff?s5nodu') format('woff'),
+    url('iconfonts/icomoon.svg?s5nodu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calender:before {
+  content: "\e900";
+  color: #757575;
+}
+.icon-dropdown:before {
+  content: "\e901";
+}
+.icon-home-icon:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-navigator-left:before {
+  content: "\e903";
+  color: #bdbdbd;
+}
+.icon-navigator-right:before {
+  content: "\e904";
+  color: #757575;
+}
+.icon-rec-dropdown:before {
+  content: "\e905";
+  color: #648cff;
+}
+.icon-run-icon:before {
+  content: "\e906";
+  color: #648cff;
+}
+.icon-side-icon:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-ticket-icon:before {
+  content: "\e908";
+  color: #648cff;
+}
+.icon-VNexpress:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-vrace-logo:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-mail-envelope-closed:before {
+  content: "\1f324";
+}

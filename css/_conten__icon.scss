@@ -1,0 +1,52 @@
+//icon
+
+.icon-rec-dropdown:before {
+  content: "\e905";
+  color: $btn-color;
+  font-size: 7px;
+  margin-left: 30px;
+}
+
+.icon-ticket-icon:before {
+  content: "\e908";
+  color: $btn-color;
+  margin-right: 15px;
+}
+
+.icon-run-icon:before {
+  content: "\e906";
+  color: $btn-color;
+  margin-right: 15px;
+}
+
+.icon-calender:before {
+  content: "\e900";
+  color: #757575;
+  margin-right: 15px;
+}
+
+.icon-navigator-left:before {
+  content: "\e903";
+  color: #bdbdbd;
+  position: absolute;
+  right: 15%;
+  cursor: pointer;
+}
+
+.icon-navigator-right:before {
+  content: "\e904";
+  color: #757575;
+  position: absolute;
+  right: 10.6%;
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  .icon-navigator-left {
+    display: none;
+  }
+
+  .icon-navigator-right {
+    display: none;
+  }
+}
