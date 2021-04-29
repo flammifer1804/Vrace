@@ -14,6 +14,10 @@
     margin-left: 300px;
   }
 
+  select{
+    color: white;    
+  }
+
   @media (max-width: 575px){
     &__pic{
       margin-left: 25%;

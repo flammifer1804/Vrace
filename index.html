@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -19,7 +25,7 @@
         <span class="navbar__btn icon-home-icon"></span>
         <span class="navbar__btn">Liên hệ</span>
         <span class="navbar__btn"
-          >Giải chạy<span class="icon-rec-dropdown"></span
+          >Giải mở rộng<span class="icon-rec-dropdown"></span
         ></span>
       </span>
       <img
@@ -37,7 +43,12 @@
     </div>
     <div class="hidden">
       <div class="hidden__item icon-home-icon"></div>
-      <div class="hidden__item">Giải chạy</div>
+      <div class="hidden__item">
+        <select name="giải chạy" id="select-item">
+          <option value="Giải mở rộng">Giải mở rộng</option>
+          <option value="Giải doanh nghiệp">Giải doanh nghiệp</option>
+        </select>
+      </div>
       <div class="hidden__item">Tin tức</div>
       <div class="hidden__item">Câu hỏi thường gặp</div>
     </div>
@@ -54,12 +65,13 @@
     </div>
     <div class="content">
       <div class="content__navigator">
-        <span class="content__btn--dropdown"
-          >Giải mở rộng<span class="icon-rec-dropdown"></span
-        ></span>
-        <span class="content__btn--dropdown"
-          >Tất cả<span class="icon-rec-dropdown"></span
-        ></span>
+        <select name="giải" id="select-item">
+          <option value="Giải mở rộng">Giải mở rộng</option>
+          <option value="Giải doanh nghiệp">Giải doanh nghiệp</option>
+        </select>
+        <select name="giải" id="select-item">
+          <option value="tất cả">Tất cả</option>
+        </select>
         <span class="icon-navigator-left"></span>
         <span class="icon-navigator-right"></span>
       </div>
@@ -162,7 +174,82 @@
             </div>
           </div>
         </div>
+        <div class="content__item" style="display: none">
+          <img src="images/Rectangle 267 - Copy.png" alt="VinID Marathon" />
+          <div class="content__inner">
+            <h4 class="content__title">
+              <img
+                src="https://via.placeholder.com/50"
+                alt="15 year logo"
+                class="content__pic"
+              />VinID Marathon
+            </h4>
+            <p>
+              <span class="icon-calender"></span>Hạn đăng kí đến
+              <span class="content__date">31/3/2020</span>
+            </p>
+            <span class="content__info"
+              ><span class="icon-ticket-icon"></span>Miễn phí</span
+            >
+            <span class="content__info"
+              ><span class="icon-run-icon"></span>24.321 Runners</span
+            >
+            <div class="content__box">
+              <p>
+                Cự ly (km) <span>42</span>
+                <span>25</span>
+                <span>130</span>
+                <span>5</span>
+                <span>5</span>
+              </p>
+              <div class="content__btn-box">
+                <button class="content__btn">Tham gia</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__item" style="display: none">
+          <img
+            src="images/Rectangle 18 - Copy.png"
+            alt="techcombank marathon"
+          />
+          <div class="content__inner">
+            <h4 class="content__title">
+              <img
+                src="https://via.placeholder.com/50"
+                alt="15 year logo"
+                class="content__pic"
+              />Techcombank Marathon
+            </h4>
+            <p>
+              <span class="icon-calender"></span>Hạn đăng kí đến
+              <span class="content__date">31/3/2020</span>
+            </p>
+            <span class="content__info"
+              ><span class="icon-ticket-icon"></span>Miễn phí</span
+            >
+            <span class="content__info"
+              ><span class="icon-run-icon"></span>24.321 Runners</span
+            >
+            <div class="content__box">
+              <p>
+                Cự ly (km) <span>42</span>
+                <span>25</span>
+                <span>130</span>
+                <span>5</span>
+                <span>5</span>
+              </p>
+              <div class="content__btn-box">
+                <button class="content__btn">Tham gia</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
